@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background: linear-gradient(to right, #673ab7, #512da8);;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 45px;
+            color: white;
+        }
+
+        .calc {
+            margin-left: 548px;
+            margin-top: 30px;
+            border: none;
+           
+            
+           
+        }
+        input{
+            height: 20px;
+            border-radius: 7px;
+            border: 2px solid black;
+            padding-top: 10px;
+            width: 250px;
+            
+        }
+        label{
+            color: white;
+        }
+        button{
+            background-color: yellow;
+        }
+        button:hover{
+            background-color: green;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <h1>CALCULATOR</h1>
+    <div class="calc">
+
+
+        <label for="enter">Enter first number :</label><br><br>
+        <input type="text" id="text1"><br><br>
+        <label for="enter">Enter second number :</label><br><br>
+        <input type="text" id="text2"><br><br>
+        <label for="">Result :</label><br><br>
+        <input type="text" name="" id='result'><br>
+        <input style="margin-top: 20px;margin-left: 70px;height: 40px;width: 120px;" type="button" name="" value="Display result" onclick="calculate()">
+    </div>
+
+    <script type="">
+        function calculate() 
+        {
+            var num1=parseInt(document.getElementById('text1').value);
+            var num2=parseInt(document.getElementById('text2').value);
+            var total =num1+num2;
+            document.getElementById('result').value=total;
+
+
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://videohive.img.customer.envatousercontent.com/files/f798de80-787e-405d-a556-4d4312b54fb6/inline_image_preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=85fabb94aebf933f9337fb59ab307041");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}   
+
+.calc{
+    
+    margin-left: 572px;
+     margin-top: 20px;
+     
+     
+     
+
+}
+input
+{
+    border-radius: 7px;
+    background-color: #4D8AC7;
+    width: 50px;height: 30px;
+    color: white;
+    border:    none;
+    
+}
+input:hover{
+    background-color: rgb(100, 100, 100);
+}
